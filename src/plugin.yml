@@ -1,0 +1,14 @@
+main: com.github.bjazdzyk.DuelsPlugin.Main
+name: DuelsPlugin
+version: 0.1
+description: Very cool plugin for duels
+commands:
+   duel:
+      description: duel command
+      usage: /duel
+      permission: DuelsPro.duel
+      permission-message: You have not permission to use this command!!!
+permissions:
+   DuelsPro.duel:
+      description: allows to use /duel command
+      default: true
